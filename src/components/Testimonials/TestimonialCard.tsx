@@ -1,19 +1,19 @@
 import { Testimonial } from '@/lib/types'
-//import { isInViewport } from '@/utils'
-//import { StarIcon } from '@/utils/icons'
-//import Image from 'next/image'
-import { FC } from 'react' //{ useEffect, useRef}
+import { isInViewport } from '@/utils'
+import { StarIcon } from '@/utils/icons'
+import Image from 'next/image'
+import { FC, useEffect, useRef } from 'react'
 
 interface TestimonialCardProps {
   testimonial: Testimonial
-//  handleActiveCard: () => void
+  handleActiveCard: () => void
 }
 
 const TestimonialCard: FC<TestimonialCardProps> = ({
-//  testimonial: { name, title, feedback, image, stars },
-//  handleActiveCard,
+  testimonial: { name, title, feedback, image, stars },
+  handleActiveCard,
 }) => {
-  /*const cardRef = useRef<HTMLDivElement>(null)
+  const cardRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     let observer: IntersectionObserver
@@ -25,11 +25,10 @@ const TestimonialCard: FC<TestimonialCardProps> = ({
     return () => {
       observer?.disconnect()
     }
-  }, [cardRef.current])*/
+  }, [cardRef.current])
 
   return (
-    <div></div>
-    /* <div
+    <div
       ref={cardRef}
       className="bg-secondary border-border flex max-w-full shrink-0 flex-col items-center justify-between gap-4 rounded-2xl border p-4 text-center sm:max-w-[425px]">
       <p className="text-neutral text-center leading-8 before:content-['“'] after:content-['”']">
@@ -47,7 +46,7 @@ const TestimonialCard: FC<TestimonialCardProps> = ({
           <p className="text-neutral/60 text-sm">{title}</p>
         </div>
       </div>
-    </div>*/
+    </div>
   )
 }
 
