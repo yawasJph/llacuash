@@ -1,7 +1,7 @@
 import {  GithubIcon} from '@/utils/icons'
 
 export const socials = [
-  { href: '', icon: <GithubIcon /> },
+  { href: 'https://github.com/Jph-y', icon: <GithubIcon /> },
   //{ href: '', icon: <LinkedIn /> },
   //{ href: '', icon: <Codepen /> },
   //{ href: '', icon: <X /> },

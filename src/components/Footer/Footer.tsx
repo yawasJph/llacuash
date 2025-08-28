@@ -27,7 +27,7 @@ const Footer = () => {
               href={link.href}
               key={link.href}
               className="text-tertiary-content hover:text-neutral transition-colors duration-300 hover:underline">
-              {link.title}.
+              {link.title}
             </a>
           ))}
         </div>
@@ -40,6 +40,7 @@ const Footer = () => {
               <li key={index} className="cursor-pointer bg-transparent">
                 <a
                   href={item.href}
+                  target='_blank'
                   className="text-neutral transition-color hover:text-neutral/50 h-full w-full duration-300">
                   {item.icon}
                 </a>
@@ -58,11 +59,13 @@ const Footer = () => {
               <h5 className="text-neutral mb-4 text-lg font-medium">Contactame</h5>
               <a
                 href="mailto:jllacuash@institutomanuelarevalo.drelm.edu.pe.com"
+                target='_blank'
                 className="text-tertiary-content hover:text-neutral text-sm font-light transition-colors duration-300">
                 jllacuash@institutomanuelarevalo.drelm.edu.pe.com
               </a>
               <a
                 href="tel:+51 987950377"
+                target='_blank'
                 className="text-tertiary-content hover:text-neutral text-sm font-light transition-colors duration-300">
                 +51 987950377
               </a>

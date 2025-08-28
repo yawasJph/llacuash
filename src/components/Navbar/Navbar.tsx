@@ -9,7 +9,7 @@ import Logo from './Logo'
 const navItems = [
   {
     label: '_inicio',
-    href: '/',
+    href: '/#',
   },
   {
     label: '_projectos',
@@ -19,7 +19,6 @@ const navItems = [
     label: '_servicios',
     href: '/#services',
   },
-  
   {
     label: '_contactame',
     href: '/#contact',
