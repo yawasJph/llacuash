@@ -9,7 +9,7 @@ import { getAllProjects, getAllTestimonials } from '@/services'
 
 export default async function Home() {
   const projects = await getAllProjects()
-  const testimonials = await getAllTestimonials()
+  //const testimonials = await getAllTestimonials()
 
   return (
     <main>
