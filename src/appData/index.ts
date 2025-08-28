@@ -80,7 +80,8 @@ export const serviceData = [
   {
     icon: NodejsIcon,
     title: 'Node.js Backend',
-    shortDescription: 'Desarrollar aplicaciones escalables del lado del servidor utilizando Node.js.',
+    shortDescription:
+      'Desarrollar aplicaciones escalables del lado del servidor utilizando Node.js.',
   },
   {
     icon: NextjsIcon,
@@ -138,12 +139,12 @@ export const skillList = [
 export const footerLinks = [
   { title: '_inicio', href: '#' },
   { title: '_projectos', href: '#projects' },
-    {
+  {
     title: '_servicios',
     href: '#services',
   },
-  /*{ title: '_testimonios', href: '#testimonials' },
- {
+  { title: '_testimonios', href: '#testimonials' },
+  /* {
     title: 'Blogs',
     href: '#blogs',
   },*/
@@ -163,7 +164,7 @@ export const themes = [
     name: 'Dark',
     colors: ['#011627', '#607b96', '#0d1a3b', '#5565e8', '#18f2e5'],
   },
- /* {
+  /* {
     name: 'Aqua',
     colors: ['#b2e4e8', '#004a55', '#00c1d4', '#004a55', '#ff6f61'],
   },
@@ -173,4 +174,4 @@ export const themes = [
   },*/
 ]
 
-export const languages = ['Es', 'Jp']//['En', 'Es', 'Fr', 'De', 'Ru']
+export const languages = ['Es', 'Jp'] //['En', 'Es', 'Fr', 'De', 'Ru']
