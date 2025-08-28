@@ -17,16 +17,30 @@ const ContactSection = () => {
 
         <div className="space-y-2">
           <p className="text-neutral text-lg font-bold">Información de contacto</p>
-          <a
+          {/* <a
             href="mailto:johndoe@gmail.com"
             className="text-neutral hover:text-accent flex items-center gap-1 font-light transition-colors duration-300">
             <MsgIcon /> llacuash@gmail.com
+          </a> */}
+          <a
+            href="mailto:llacuash@gmail.com?subject=Contacto%20desde%20portafolio&body=Hola%20Joseph%2C%20quiero%20ponerme%20en%20contacto%20contigo."
+            className="text-neutral hover:text-accent flex items-center gap-1 font-light transition-colors duration-300"
+            target="_blank"
+            rel="noopener noreferrer">
+            <MsgIcon /> jllacuash@institutomanuelarevalo.drelm.edu.pe.com
           </a>
           <a
+            href="https://wa.me/51987654321?text=Hola%20Joseph%2C%20vi%20tu%20portafolio%20y%20quiero%20contactarte."
+            className="text-neutral hover:text-accent flex items-center gap-1 font-light transition-colors duration-300"
+            target="_blank"
+            rel="noopener noreferrer">
+            <PhoneIcon /> +51 987950377
+          </a>
+          {/* <a
             href="tel:+92 3123456789"
             className="text-neutral hover:text-accent flex items-center gap-1 font-light transition-colors duration-300">
             <PhoneIcon /> +51 3123456789
-          </a>
+          </a> */}
         </div>
       </div>
 

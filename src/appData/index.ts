@@ -138,15 +138,16 @@ export const skillList = [
 export const footerLinks = [
   { title: 'inicio', href: '#' },
   { title: 'projectos', href: '#projects' },
+    {
+    title: 'servicios',
+    href: '#services',
+  },
   { title: 'testimonios', href: '#testimonials' },
 /*  {
     title: 'Blogs',
     href: '#blogs',
   },*/
-  {
-    title: 'servicios',
-    href: '#services',
-  },
+
   {
     title: 'contactame',
     href: '#contact',
@@ -172,4 +173,4 @@ export const themes = [
   },*/
 ]
 
-export const languages = ['Es']//['En', 'Es', 'Fr', 'De', 'Ru']
+export const languages = ['Es', 'Jp']//['En', 'Es', 'Fr', 'De', 'Ru']

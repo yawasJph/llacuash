@@ -14,11 +14,11 @@ const Footer = () => {
           <p className="text-tertiary-content">
            Tu developer de confianza.
           </p>
-          <a
+          {/* <a
             href="#"
             className="text-neutral mt-4 inline-flex items-center gap-2 text-xs hover:underline">
             Mas acerca de mi <span className="bg-neutral inline-block size-[10px] rounded-full" />
-          </a>
+          </a> */}
         </div>
 
         <div className="flex flex-wrap gap-8">
@@ -48,7 +48,7 @@ const Footer = () => {
           </ul>
           <p className="text-tertiary-content flex flex-col self-end text-right text-xs md:text-center">
             <span>© 2025 — Copyright</span>
-            <span>All Rights reserved</span>
+            <span>Todos los derechos reservados</span>
           </p>
         </div>
 
@@ -57,22 +57,21 @@ const Footer = () => {
             <div className="flex flex-col">
               <h5 className="text-neutral mb-4 text-lg font-medium">Contactame</h5>
               <a
-                href="mailto:johndoe@gmail.com"
+                href="mailto:jllacuash@institutomanuelarevalo.drelm.edu.pe.com"
                 className="text-tertiary-content hover:text-neutral text-sm font-light transition-colors duration-300">
-                llacuash@gmail.com
+                jllacuash@institutomanuelarevalo.drelm.edu.pe.com
               </a>
               <a
-                href="tel:+92 3123456789"
+                href="tel:+51 987950377"
                 className="text-tertiary-content hover:text-neutral text-sm font-light transition-colors duration-300">
-                +51 3123456789
+                +51 987950377
               </a>
             </div>
             <div>
               <div>
-                <h5 className="text-neutral mb-4 text-lg font-medium">Location</h5>
+                <h5 className="text-neutral mb-4 text-lg font-medium">Ubicación</h5>
                 <address className="text-tertiary-content flex flex-col text-sm font-light">
-                  <span>123456, Peru</span>
-                  <span>Los olivos </span>
+                  <span>Peru</span>
                 </address>
               </div>
             </div>

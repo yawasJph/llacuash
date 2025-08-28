@@ -26,7 +26,7 @@ const ContactForm = () => {
         placeholder="Tu dirección de correo electrónico aquí"
         required
       />
-      <Input label="Asunto" id="subject" name="subject" placeholder="Tu sujeto aquí" />
+      <Input label="Asunto" id="subject" name="subject" placeholder="Tu sujeto aquí" required/>
       <Textarea
         label="Mensaje"
         id="message"

@@ -55,6 +55,8 @@ const action = async (_: { success: boolean; message: string } | null, formData:
       success: false,
       message: '¡Ups! Hubo un problema al enviar tu formulario.',
     }
+  }finally{// finally i put it by my self is no by default
+    return { success: true, message: '¡Gracias por tu envío!!' }
   }
 }
 
