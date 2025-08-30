@@ -61,7 +61,7 @@ const Footer = () => {
                 href="mailto:jllacuash@institutomanuelarevalo.drelm.edu.pe.com"
                 target='_blank'
                 className="text-tertiary-content hover:text-neutral text-sm font-light transition-colors duration-300">
-                jllacuash@institutomanuelarevalo.drelm.edu.pe.com
+                llacuash@gmail.com
               </a>
               <a
                 href="tel:+51 987950377"

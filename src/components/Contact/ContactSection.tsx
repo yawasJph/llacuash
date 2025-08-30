@@ -28,7 +28,7 @@ const ContactSection = () => {
               className="text-neutral hover:text-accent flex items-center gap-1 font-light transition-colors duration-300"
               target="_blank"
               rel="noopener noreferrer">
-              <MsgIcon /> jllacuash@institutomanuelarevalo.drelm.edu.pe.com
+              <MsgIcon /> llacuash@gmail.com
             </a>
             <a
               href="https://wa.me/51987654321?text=Hola%20Joseph%2C%20vi%20tu%20portafolio%20y%20quiero%20contactarte."
