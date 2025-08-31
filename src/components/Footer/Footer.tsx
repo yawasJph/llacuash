@@ -48,8 +48,7 @@ const Footer = () => {
             ))}
           </ul>
           <p className="text-tertiary-content flex flex-col self-end text-right text-xs md:text-center">
-            <span>© 2025 — Copyright</span>
-            <span>Todos los derechos reservados</span>
+            <span>© 2025 — llacuash</span>
           </p>
         </div>
 
