@@ -14,6 +14,7 @@ const Footer = () => {
           <p className="text-tertiary-content">
            Tu developer de confianza.
           </p>
+          
           {/* <a
             href="#"
             className="text-neutral mt-4 inline-flex items-center gap-2 text-xs hover:underline">
