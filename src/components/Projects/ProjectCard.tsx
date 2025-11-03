@@ -71,7 +71,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
         <div className="flex gap-5">
           {livePreview && (
             <a
-              href="https://bottlecode.up.railway.app/pages/index.html"
+              href={livePreview}
               className="text-accent flex gap-2 text-sm underline underline-offset-[3px] transition-all duration-75 ease-linear hover:scale-105 md:text-base"
               target="_blank">
               <PreviewIcon className="h-auto w-[18px] md:w-5" />
