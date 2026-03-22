@@ -1,9 +1,9 @@
 {
   "priority": 1,
-  "title": "YoMAC (beta)",
+  "title": "YoMAC",
   "shortDescription": "Red Social exclusiva para los estudiantes del Instituto Manuel Arevalo Caceres",
-  "cover": "/yomac.png",
-  "livePreview": "https://yomac-production.up.railway.app/",
+  "cover": "/yomac-p.png",
+  "livePreview": "https://yomacv2.vercel.app/",
   "type": "New 🔥",
-  "siteAge": "IV - Ciclo (DSI)"
+  "siteAge": "V - Ciclo (DSI)"
 }

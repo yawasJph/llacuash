@@ -11,30 +11,67 @@ const firaCode = Fira_Code({ subsets: ['latin'], weight: ['300', '400', '500', '
 const title = 'LLacuash | Full-Stack Web Developer'
 
 const description =
-  "Desarrollador web full-stack experimentado en Chicago. Construyo sitios web responsivos y fáciles de usar con React, NextJS y NodeJS. Hagamos realidad tu visión. ¡Contrátame hoy!"
+  "Desarrollador web full-stack experimentado en Lima. Construyo sitios web responsivos y fáciles de usar con React, NextJS y NodeJS. Hagamos realidad tu visión. ¡Contrátame hoy!"
 
-const url = process.env.NEXT_PUBLIC_SITE_URL
+const url = "https://llacuash.up.railway.app/"
+
+// export const metadata: Metadata = {
+//   title,
+//   description,
+//   category: 'technology',
+//   metadataBase: new URL(url), 
+//   alternates: {
+//     canonical: url,
+//   },
+//   openGraph: {
+//     title,
+//     description,
+//     url,
+//     siteName: 'YoMac',
+//     type: 'website',
+//   },
+//   twitter: {
+//     title,
+//     description,
+//     card: 'summary_large_image',
+//     creator: '@jllacuash',
+//   },
+// }
 
 export const metadata: Metadata = {
   title,
   description,
   category: 'technology',
-  //metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL!), 
+  metadataBase: new URL(url),
   alternates: {
-    canonical: url,
+    canonical: '/',
   },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  authors: [{ name: 'Joseph Llacuash' }],
   openGraph: {
     title,
     description,
     url,
-    siteName: 'John Doe Portfolio',
+    siteName: 'LLacuash',
     type: 'website',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'LLacuash Portfolio',
+      },
+    ],
   },
   twitter: {
     title,
     description,
     card: 'summary_large_image',
-    creator: '@Basit_Miyanji',
+    creator: '@jllacuash',
+    images: ['/og-image.png'],
   },
 }
 
