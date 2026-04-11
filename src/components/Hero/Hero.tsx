@@ -49,6 +49,7 @@ const Hero = () => {
               alt="John Doe - Full Stack Developer"
               className="object-contain p-7"
             />
+            
             <Ellipse
               ref={ellipseRef}
               className="absolute top-0 left-0 size-56 transition-transform duration-500 ease-out sm:size-60 md:size-[20rem] lg:size-[25.75rem]"
